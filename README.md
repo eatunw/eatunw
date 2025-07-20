@@ -9,8 +9,8 @@ I’m looking to collaborate on any data or web3 projects you have
 
 <h2>👨‍💻 Data Analytics Projects:</h2>
 
-1. **E‑commerce Customer Churn Analysis**
-   
+1. **E‑commerce Customer Churn Analysis**: 
+   https://github.com/eatunw/ecommerce-churn-analysis
 
 
 
@@ -18,7 +18,8 @@ I’m looking to collaborate on any data or web3 projects you have
 
 [<img align="left" alt="eatunw | Twitter" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/twitter.svg" />][twitter]
 [<img align="left" alt="eatunw | LinkedIn" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/linkedin.svg" />][linkedin]
+[<img align="left" alt="eatunw | Gmail" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/gmail.svg" />][gmail]
 
 [twitter]: https://twitter.com/aemmanuel90585
 [linkedin]: https://linkedin.com/in/emmanuel-atunde
-
+[gmail]: atundeemmanuel7@gmail.com
