@@ -1,9 +1,10 @@
 <h1>Hi, I'm Emmanuel! </h1>
 
-I'm a Data Analyst Proficient in Excel, Tableau, Power BI, SQL, Dune and AI
-I'm also a WEB3 and AI enthusiast
-I’m currently learning Python for Data science, ML and WEB development
-I’m looking to collaborate on any data or web3 projects you have
+I'm a Data Analyst Proficient in Excel, Tableau, Power BI, SQL, Dune and AI, 
+I'm also a WEB3 and AI enthusiast and 
+I’m currently learning Python for Data science, ML and WEB development 
+
+I’m looking to collaborate on any data or web3 projects you have 
 
 
 <h2>👨‍💻 Data Analytics Projects:</h2>
