@@ -40,7 +40,7 @@ All data cleaning—filtering nulls, handling negative quantities, standardizing
 | **SQL**            | Data cleaning, transformation, churn logic   |
 | **Power BI**       | Dashboard design, visuals, interactive filters |
 | **Git & GitHub**   | Version control and portfolio hosting        |
-| **Optional: Excel**| Quick initial exploration and sanity checks  |
+| **Excel**| Quick initial exploration and sanity checks  |
 
 
 
