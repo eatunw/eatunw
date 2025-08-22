@@ -11,6 +11,8 @@ I’m looking to collaborate on any data or web3 projects you have
 
 1. **E‑commerce Customer Churn Analysis**: 
    https://eatunw.github.io/ecommerce-churn-analysis/
+2. **Sales Forecasting & Demand Planning**:
+   
 
 
 
