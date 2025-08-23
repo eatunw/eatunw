@@ -11,9 +11,16 @@ I’m looking to collaborate on any data or web3 projects you have
 
 1. **E‑commerce Customer Churn Analysis Project**: 
    [Customer Churn Analysis](https://eatunw.github.io/ecommerce-churn-analysis/)
-2. **Sales Forecasting & Demand Planning Project**:
+
+   This project analyzes customer churn on an e‑commerce platform using a real‑world, partially unclean dataset. It demonstrates how to define, calculate, and visualize churn using SQL for data wrangling and Power BI for dashboarding.
+3. **Sales Forecasting & Demand Planning Project**:
    [Sales Forecasting & Demand Planning](https://eatunw.github.io/sales-forecast-fmcg/)
 
+   This project focuses on forecasting sales performance for a Fast-Moving Consumer Goods (FMCG) company using a real-world dataset. It demonstrates how to preprocess raw transactional data with Python (Pandas), analyze patterns in Excel pivot tables, and build interactive dashboards in Power BI to visualize trends and predictions.
+5. **Education Program Evaluation Project**:
+   [Education Program Evaluation](https://eatunw.github.io/Education-Program-Evaluation/)
+
+   This project evaluates an education program targeting children with disabilities using real-world data. It demonstrates how to assess program outcomes, identify gaps in access, and propose actionable improvements using Julius AI and Excel
 
 
 <h2> 🤳 Connect with me:</h2>
