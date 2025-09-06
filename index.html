@@ -1,0 +1,118 @@
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Emmanuel Atunde | Portfolio</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    // Dark mode toggle
+    function toggleDarkMode() {
+      document.documentElement.classList.toggle('dark');
+    }
+
+    // Load projects dynamically
+    async function loadProjects() {
+      const res = await fetch('projects.json');
+      const projects = await res.json();
+      const container = document.getElementById('projects');
+
+      projects.forEach(p => {
+        const card = document.createElement('div');
+        card.className = "bg-white dark:bg-gray-800 rounded-2xl shadow-md p-4 hover:shadow-lg transition";
+        card.innerHTML = `
+          <h3 class="text-xl font-semibold mb-2 text-gray-900 dark:text-gray-100">${p.title}</h3>
+          <p class="text-gray-600 dark:text-gray-300 mb-3">${p.description}</p>
+          <a href="${p.link}" target="_blank" class="text-blue-500 hover:underline">View Project →</a>
+        `;
+        container.appendChild(card);
+      });
+    }
+
+    window.onload = loadProjects;
+  </script>
+</head>
+<body class="bg-gray-100 dark:bg-gray-900 text-gray-900 dark:text-gray-100">
+  <!-- Navbar -->
+  <nav class="p-4 flex justify-between items-center shadow-md bg-white dark:bg-gray-800">
+    <h1 class="text-2xl font-bold">Emmanuel Atunde</h1>
+    <div class="space-x-4">
+      <a href="#projects" class="hover:text-blue-500">Projects</a>
+      <a href="#skills" class="hover:text-blue-500">Skills</a>
+      <a href="#about" class="hover:text-blue-500">About</a>
+      <a href="#contact" class="hover:text-blue-500">Contact</a>
+      <button onclick="toggleDarkMode()" class="px-3 py-1 bg-gray-200 dark:bg-gray-700 rounded-lg">🌓</button>
+    </div>
+  </nav>
+
+  <!-- Hero -->
+  <section class="text-center py-20">
+    <h2 class="text-4xl font-bold mb-4">Hi, I'm Emmanuel 👋</h2>
+    <p class="text-lg text-gray-600 dark:text-gray-300">Junior Data Analyst | SQL • Python • Tableau • Power BI • AI Automation</p>
+    <a href="#projects" class="mt-6 inline-block px-6 py-3 bg-blue-500 text-white rounded-xl shadow hover:bg-blue-600">View My Work</a>
+  </section>
+
+  <!-- Projects -->
+  <section id="projects" class="px-6 py-12">
+    <h2 class="text-3xl font-bold mb-6 text-center">Projects</h2>
+    <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-6" id="projects"></div>
+  </section>
+
+  <!-- Skills -->
+  <section id="skills" class="px-6 py-12 bg-gray-200 dark:bg-gray-800">
+    <h2 class="text-3xl font-bold mb-6 text-center">Skills</h2>
+    <div class="flex flex-wrap justify-center gap-4">
+      <span class="px-4 py-2 bg-white dark:bg-gray-700 rounded-lg shadow">SQL</span>
+      <span class="px-4 py-2 bg-white dark:bg-gray-700 rounded-lg shadow">Python</span>
+      <span class="px-4 py-2 bg-white dark:bg-gray-700 rounded-lg shadow">Tableau</span>
+      <span class="px-4 py-2 bg-white dark:bg-gray-700 rounded-lg shadow">Power BI</span>
+      <span class="px-4 py-2 bg-white dark:bg-gray-700 rounded-lg shadow">Excel</span>
+      <span class="px-4 py-2 bg-white dark:bg-gray-700 rounded-lg shadow">AI Automation</span>
+    </div>
+  </section>
+
+  <!-- About -->
+  <section id="about" class="px-6 py-12">
+    <h2 class="text-3xl font-bold mb-6 text-center">About Me</h2>
+    <p class="max-w-2xl mx-auto text-center text-gray-600 dark:text-gray-300">
+      I'm a Junior Data Analyst with a passion for solving problems using data. Skilled in SQL, Python, Tableau, Power BI, and AI automation, I enjoy transforming raw datasets into actionable insights.
+    </p>
+  </section>
+
+  <!-- Contact -->
+  <section id="contact" class="px-6 py-12 bg-gray-200 dark:bg-gray-800 text-center">
+    <h2 class="text-3xl font-bold mb-6">Contact</h2>
+    <p class="mb-4">📧 atundeemmanuel7@gmail.com</p>
+    <a href="mailto:atundeemmanuel7@gmail.com" class="px-6 py-3 bg-blue-500 text-white rounded-xl shadow hover:bg-blue-600">Email Me</a>
+  </section>
+
+  <!-- Footer -->
+  <footer class="p-4 text-center bg-white dark:bg-gray-800">
+    <p>© 2025 Emmanuel Atunde. Built with ❤️ and TailwindCSS.</p>
+  </footer>
+</body>
+</html>
+```
+
+And create a separate **`projects.json`** file in the same repo with this structure:
+
+```json
+[
+  {
+    "title": "E‑commerce Customer Churn Analysis",
+    "description": "Analyzed churn using SQL + Power BI, identified 86% single-purchase rate and retention insights.",
+    "link": "https://github.com/eatunw/ecommerce-churn-analysis"
+  },
+  {
+    "title": "Education Program Evaluation",
+    "description": "Evaluated disability gaps in education using Excel + JuliusAI; delivered key policy recommendations.",
+    "link": "https://github.com/eatunw/education-program-evaluation"
+  },
+  {
+    "title": "DeFi Wallet Retention Analysis",
+    "description": "Built dashboards on Dune Analytics to measure wallet activity and retention trends.",
+    "link": "https://github.com/eatunw/defi-retention"
+  }
+]
+```
